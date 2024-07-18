@@ -13,7 +13,7 @@
     --cor3: #FCE8CC;
     --cor4: #967D59;
     --cor5: #635B4F;
-    --sombra: #1e1c18;
+    --sombra: #1e1c1886;
     --fonteMedieval: 'MedievalSharp', cursive;
 }
 
@@ -37,7 +37,6 @@ header {
     padding: 20px 30px;
     text-align: center;
     box-shadow: 0 1px 5px var(--sombra);
-    
 }
 
 header > h1 {
@@ -47,11 +46,12 @@ header > h1 {
 header > nav {
     text-align: left;
     padding-top: 30px;
+    
 }
 
 nav > a {
     color: var(--cor2);
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 7px;
 }
 
@@ -69,25 +69,28 @@ main {
     max-width: 1000px;
     background-color: var(--cor3);
     margin: auto;
-    border-radius: 10px 10px 0 0;
     box-shadow: 0 0 10px var(--sombra);
 }
 
 main > section > h1 {
-    padding: 30px 0 0px 40px;
+    text-align: center;
+    padding: 30px 0 0 0;
     font-size: 45px;
+}
+
+section#herois {
+    padding-bottom: 10px;
 }
 
 section#herois > div {
     background-color: var(--cor4);
-    margin: 10px;
+    margin: 5px 30px;
     padding: 20px;
     border-radius: 10px;
 }
 
 section#herois > div > a > img {
-    width: 70px;
-    min-width: 50px;
+    width: 60px;
     margin: 10px;
     box-shadow: 0 0 5px var(--cor3);
     opacity: .5;
@@ -107,3 +110,4 @@ section#herois > div#eventos > a > img:hover {
 section#herois > div#pagos > a > img:hover {
     box-shadow: 0 0 10px gold;
 }
+
